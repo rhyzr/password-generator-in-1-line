@@ -1,0 +1,1 @@
+import random,string;print("Generated Password:",''.join(random.choices(string.ascii_lowercase+string.digits,k=12)));input("Press enter to exit")
